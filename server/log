@@ -1,0 +1,534 @@
+[1461188104.39] ready for connections
+[1461188980.69] ready for connections
+[1461189000.71] Error for connection thread(Still running) timed out
+[1461189020.73] Error for connection thread(Still running) timed out
+[1461189040.74] Error for connection thread(Still running) timed out
+[1461189060.77] Error for connection thread(Still running) timed out
+[1461189080.79] Error for connection thread(Still running) timed out
+[1461189081.4] Got connection from 95.146.252.74
+[1461189101.42] Error for connection thread(Still running) timed out
+[1461189121.46] Error for connection thread(Still running) timed out
+[1461189164.33] ready for connections
+[1461189214.25] Got connection from 95.146.252.74
+[1461189983.31] Got connection from 95.146.252.74
+[1461192124.01] Got connection from 95.146.252.74
+[1461192320.69] Got connection from 95.146.252.74
+[1461192399.8] ready for connections
+[1461192407.9] Got connection from 95.146.252.74
+[1461192421.86] Got connection from 95.146.252.74
+[1461192421.88] 1 command: lis
+[1461192431.76] Got connection from 95.146.252.74
+[1461192431.77] 1 command: out
+[1461192436.53] Got connection from 95.146.252.74
+[1461192436.55] 1 command: sin
+[1461192480.57] ready for connections
+[1461192494.87] Got connection from 95.146.252.74
+[1461192500.92] 1 command: lis
+[1461224070.47] Got connection from 95.146.252.74
+[1461224070.5] 1 command: lis
+[1461224087.88] Got connection from 95.146.252.74
+[1461224095.43] Got connection from 31.124.48.167
+[1461224103.39] Got connection from 31.124.48.167
+[1461224103.46] 1 command: lis
+[1461224114.13] Got connection from 31.124.48.167
+[1461224114.2] 1 command: out
+[1461224120.39] Got connection from 31.124.48.167
+[1461224168.26] Got connection from 31.124.48.167
+[1461224177.07] Got connection from 31.124.48.167
+[1461224177.14] 1 command: lis
+[1461224182.45] Got connection from 31.124.48.167
+[1461224182.51] 1 command: sin
+[1461224186.06] Got connection from 31.124.48.167
+[1461224236.21] Got connection from 31.124.48.167
+[1461224241.65] Got connection from 31.124.48.167
+[1461224241.71] 1 command: lis
+[1461224247.08] Got connection from 31.124.48.167
+[1461230774.2] Got connection from 31.124.48.167
+[1461230774.2] Got connection from 31.124.48.167
+[1461230774.79] 1 command: lis
+[1461230774.81] 1 command: lis
+[1461230789.27] Got connection from 31.124.48.167
+[1461230789.68] 1 command: lis
+[1461230795.09] Got connection from 31.124.48.167
+[1461230795.54] 1 command: lis
+[1461230812.63] Got connection from 31.124.48.167
+[1461237883.74] Got connection from 213.205.252.42
+[1461237883.8] 1 command: lis
+[1461237888.77] Got connection from 213.205.252.42
+[1461237888.83] 1 command: out
+[1461238851.82] Got connection from 213.205.252.42
+[1461238851.89] 1 command: sin
+[1461238885.37] Got connection from 213.205.252.42
+[1461238885.42] 1 command: out
+[1461239952.21] Got connection from 95.146.252.74
+[1461240531.1] Got connection from 95.146.252.74
+[1461241147.63] Got connection from 213.205.252.42
+[1461241167.06] Got connection from 213.205.252.42
+[1461241181.48] Got connection from 213.205.252.42
+[1461241204.43] Got connection from 213.205.252.42
+[1461246859.41] Got connection from 95.146.252.74
+[1461246859.76] Got connection from 95.146.252.74
+[1461246859.77] 1 command: lis
+[1461246863.46] Got connection from 95.146.252.74
+[1461248686.45] Got connection from 213.205.252.42
+[1461248686.51] 1 command: lis
+[1461248697.13] Got connection from 213.205.252.42
+[1461248697.18] 1 command: out
+[1461264056.56] Got connection from 95.146.252.74
+[1461266461.59] Got connection from 95.146.252.74
+[1461273858.79] ready for connections
+[1461273890.25] Got connection from 95.146.252.74
+[1461273893.67] 1 command: lis
+[1461329981.72] ready for connections
+[1461330050.13] Got connection from 95.146.252.74
+[1461330050.15] 1 command: lis
+[1461330053.06] Got connection from 95.146.252.74
+[1461366188.68] Got connection from 95.146.252.74
+[1461366188.71] 1 command: lis
+[1461366204.0] Got connection from 95.146.252.74
+[1461366204.02] 1 command: out
+[1461366227.47] Got connection from 95.146.252.74
+[1461366595.75] ready for connections
+[1461401964.23] Got connection from 95.146.252.74
+[1461402071.58] Got connection from 95.146.252.74
+[1461413528.2] Got connection from 95.146.252.74
+[1461414646.22] Got connection from 95.146.252.74
+[1461414766.27] ready for connections
+[1461414777.06] Got connection from 95.146.252.74
+[1461414777.58] Got connection from 95.146.252.74
+[1461414783.49] ('95.146.252.74', 49054) incorrect login details!
+[1461414816.37] Got connection from 95.146.252.74
+[1461414826.7] 1 command: lis
+[1461415512.9] Got connection from 95.146.252.74
+[1461418771.34] Got connection from 95.146.252.74
+[1461420473.41] Got connection from 95.146.252.74
+[1461422367.74] Got connection from 95.146.252.74
+[1461422659.98] Got connection from 95.146.252.74
+[1461422769.3] Got connection from 95.146.252.74
+[1461424604.2] Got connection from 95.146.252.74
+[1461425193.94] Got connection from 95.146.252.74
+[1461425298.81] Got connection from 95.146.252.74
+[1461426137.64] Got connection from 95.146.252.74
+[1461426741.29] Got connection from 95.146.252.74
+[1461434095.51] Got connection from 95.146.252.74
+[1461490203.93] Got connection from 95.146.252.74
+[1461497211.41] Got connection from 95.146.252.74
+[1461512178.85] Got connection from 95.146.252.74
+[1461520860.01] Got connection from 95.146.252.74
+[1461528195.8] Got connection from 95.146.252.74
+[1461538802.1] Got connection from 95.146.252.74
+[1461569681.32] Got connection from 95.146.252.74
+[1461574119.83] Got connection from 213.205.252.156
+[1461576239.03] Got connection from 213.205.252.156
+[1461576239.09] 1 command: lis
+[1461576242.67] Got connection from 213.205.252.156
+[1461590536.31] Got connection from 95.146.252.74
+[1461593252.18] Got connection from 95.146.252.74
+[1461605559.73] Got connection from 95.146.252.74
+[1461613133.04] Got connection from 95.146.252.74
+[1461618134.34] Got connection from 95.146.252.74
+[1461624968.85] Got connection from 95.146.252.74
+[1461655868.87] Got connection from 95.146.252.74
+[1461670203.58] Got connection from 95.146.252.74
+[1461694356.36] Got connection from 95.146.252.74
+[1461699106.81] Got connection from 95.146.252.74
+[1461702647.44] Got connection from 95.146.252.74
+[1461706501.45] Got connection from 95.146.252.74
+[1461710580.01] Got connection from 95.146.252.74
+[1461743092.3] Got connection from 95.146.252.74
+[1461747643.6] Got connection from 213.205.252.174
+[1461747643.83] Got connection from 213.205.252.174
+[1461747643.89] 1 command: lis
+[1461747648.08] Got connection from 213.205.252.174
+[1461747650.05] Got connection from 213.205.252.174
+[1461747650.1] 1 command: lis
+[1461747680.61] Got connection from 213.205.252.174
+[1461747680.63] Got connection from 213.205.252.174
+[1461747680.66] 1 command: lis
+[1461747680.68] 1 command: lis
+[1461756888.28] Got connection from 95.146.252.74
+[1461784561.55] Got connection from 95.146.252.74
+[1461789781.45] Got connection from 95.146.252.74
+[1461791132.09] Got connection from 95.146.252.74
+[1461800829.1] Got connection from 95.146.252.74
+[1461829210.1] Got connection from 95.146.252.74
+[1461848518.26] Got connection from 95.146.252.74
+[1461852263.92] Got connection from 95.146.252.74
+[1461866732.78] Got connection from 95.146.252.74
+[1461868829.09] Got connection from 95.146.252.74
+[1461873237.59] Got connection from 95.146.252.74
+[1461875297.33] Got connection from 95.146.252.74
+[1461878805.19] Got connection from 95.146.252.74
+[1461882363.0] Got connection from 95.146.252.74
+[1461886589.39] Got connection from 95.146.252.74
+[1461927828.2] Got connection from 95.146.252.74
+[1461931374.09] Got connection from 95.146.252.74
+[1461937047.66] Got connection from 213.205.252.232
+[1461937055.66] 1 command: lis
+[1461958987.1] Got connection from 95.146.252.74
+[1461963803.09] Got connection from 95.146.252.74
+[1461968577.46] Got connection from 95.146.252.74
+[1462006588.28] Got connection from 95.146.252.74
+[1462008424.84] Got connection from 95.146.252.74
+[1462014702.92] Got connection from 95.146.252.74
+[1462024377.62] Got connection from 95.146.252.74
+[1462027170.87] Got connection from 95.146.252.74
+[1462028063.98] Got connection from 127.0.0.1
+[1462033585.65] Got connection from 95.146.252.74
+[1462039724.48] Got connection from 95.146.252.74
+[1462039989.4] Got connection from 95.146.252.74
+[1462044668.01] Got connection from 95.146.252.74
+[1462052151.85] Got connection from 95.146.252.74
+[1462056397.49] Got connection from 95.146.252.74
+[1462062956.78] Got connection from 95.146.252.74
+[1462103084.71] Got connection from 95.146.252.74
+[1462106852.55] Got connection from 95.146.252.74
+[1462110593.1] Got connection from 95.146.252.74
+[1462115242.24] Got connection from 95.146.252.74
+[1462186672.44] Got connection from 127.0.0.1
+[1462213156.82] Got connection from 95.146.252.55
+[1462213168.27] 1 command: OUT
+[1462213170.26] 1 command: 
+[1462213170.71] 1 command: 
+[1462213170.91] 1 command: 
+[1462213171.09] 1 command: 
+[1462213189.46] 1 command: out
+[1462213189.61] 1 has signed out with the reason: because
+[1462213438.18] Got connection from 192.168.1.28
+[1462213443.97] 1 command: sin
+[1462213444.12] 1 has signed in
+[1462307060.04] Got connection from 95.146.252.55
+[1462307064.51] 1 command: lis
+[1467050175.02] ready for connections
+[1468583183.64] Got connection from 127.0.0.1
+[1468583285.36] Got connection from 192.168.1.28
+[1468583289.91] ('192.168.1.28', 53094) incorrect login details!
+[1468703082.04] Got connection from 192.168.1.28
+[1468703082.05] ('192.168.1.28', 55348) incorrect login details!
+[1468703087.63] Got connection from 192.168.1.28
+[1469301939.95] ready for connections
+[1469301987.24] Got connection from 192.168.1.28
+[1469301987.29] ('192.168.1.28', 52440) incorrect login details!
+[1469301997.19] Got connection from 192.168.1.28
+[1469375213.31] Got connection from 192.168.1.28
+[1469375216.69] 1 command: 1
+[1469375218.23] 1 command: 2
+[1469375218.6] 1 command: 3
+[1469375219.0] 1 command: 4
+[1469375219.36] 1 command: 5
+[1469375219.64] 1 command: 6
+[1469375219.88] 1 command: 7
+[1469375220.12] 1 command: 8
+[1469375220.41] 1 command: 9
+[1469375474.18] Got connection from 192.168.1.28
+[1469375477.71] 1 command: lis
+[1469375480.83] Got connection from 192.168.1.28
+[1469375481.92] Got connection from 192.168.1.28
+[1469375491.02] 1 command: 2
+[1469375492.33] 1 command: lis
+[1469375494.48] 1 command: lis
+[1469376621.96] Got connection from 192.168.1.28
+[1469376621.97] 1 command: lis
+[1469377498.05] Got connection from 192.168.1.28
+[1469377498.06] 1 command: lis
+[1469377597.56] Got connection from 192.168.1.28
+[1469377597.57] 1 command: lis
+[1469378643.33] Got connection from 192.168.1.28
+[1469378643.33] 1 command: lis
+[1469378665.74] Got connection from 192.168.1.28
+[1469378665.75] 1 command: lis
+[1469379037.45] Got connection from 192.168.1.28
+[1469379037.47] 1 command: lis
+[1469380649.9] Got connection from 192.168.1.28
+[1469380649.91] 1 command: lis
+[1469380694.45] Got connection from 192.168.1.28
+[1469380694.45] 1 command: lis
+[1469381035.84] Got connection from 192.168.1.28
+[1469381035.85] 1 command: lis
+[1469381047.52] Got connection from 192.168.1.28
+[1469381047.53] 1 command: sin
+[1469381047.69] 1 has signed in
+[1469381058.91] Got connection from 192.168.1.28
+[1469381058.92] 1 command: out
+[1469381059.07] 1 has signed out with the reason: feee
+[1469395904.19] ready for connections
+[1469395998.0] Got connection from 192.168.1.28
+[1469396100.18] ready for connections
+[1469396106.01] Got connection from 192.168.1.28
+[1469396106.08] 1 command: out
+[1469396149.98] ready for connections
+[1469396153.33] Got connection from 192.168.1.28
+[1469396153.44] 1 command: out
+[1469396153.56] 1 has signed out with the reason: 
+[1469396258.73] ready for connections
+[1469396269.5] Got connection from 192.168.1.28
+[1469396269.57] 1 command: out
+[1469396269.69] 1 has signed out with the reason: 
+[1469396342.9] ready for connections
+[1469396347.37] Got connection from 192.168.1.28
+[1469396347.43] 1 command: out
+[1469396378.63] ready for connections
+[1469396381.46] Got connection from 192.168.1.28
+[1469396381.55] 1 command: out
+[1469396381.66] 1 has signed out with the reason: 
+[1469396528.26] ready for connections
+[1469396533.54] Got connection from 192.168.1.28
+[1469396533.65] 1 command: out
+[1469396533.75] 1 has signed out with the reason: 
+[1469396746.49] ready for connections
+[1469396758.6] Got connection from 192.168.1.28
+[1469396758.69] 1 command: out
+[1469396758.81] 1 has signed out with the reason: free
+[1469396788.71] Got connection from 192.168.1.28
+[1469396788.79] 1 command: sin
+[1469396788.91] 1 has signed in
+[1469547869.5] Got connection from 192.168.1.39
+[1469547869.5] ('192.168.1.39', 39184) incorrect login details!
+[1469547873.9] Got connection from 192.168.1.39
+[1469547874.2] Got connection from 192.168.1.39
+[1469547874.4] 1 command: lis
+[1469548011.0] Got connection from 192.168.1.39
+[1469548011.21] 1 command: lis
+[1469548218.8] Got connection from 192.168.1.39
+[1469548218.98] 1 command: lis
+[1469548251.07] Got connection from 192.168.1.39
+[1469548251.24] 1 command: lis
+[1469548900.03] ready for connections
+[1469549253.25] Got connection from 192.168.1.39
+[1469549253.25] Got connection from 192.168.1.39
+[1469549253.56] 1 command: cur
+[1469549253.56] 1 command: cur
+[1469549332.27] ready for connections
+[1469549342.89] Got connection from 192.168.1.39
+[1469549343.04] 1 command: lis
+[1469549343.06] Got connection from 192.168.1.39
+[1469549343.18] 1 command: cur
+[1469549372.32] Got connection from 192.168.1.39
+[1469549372.45] 1 command: lis
+[1469549372.48] Got connection from 192.168.1.39
+[1469549372.62] 1 command: cur
+[1469549436.11] ready for connections
+[1469549438.75] Got connection from 192.168.1.39
+[1469549438.88] 1 command: lis
+[1469549438.91] Got connection from 192.168.1.39
+[1469549439.0] 1 command: cur
+[1469549457.72] Got connection from 192.168.1.39
+[1469549457.92] 1 command: out
+[1469549458.05] 1 has signed out with the reason: 
+[1469549462.08] Got connection from 192.168.1.39
+[1469549462.23] 1 command: lis
+[1469549462.26] Got connection from 192.168.1.39
+[1469549462.36] 1 command: cur
+[1469549466.87] Got connection from 192.168.1.39
+[1469549467.04] 1 command: lis
+[1469549467.07] Got connection from 192.168.1.39
+[1469549467.17] 1 command: cur
+[1469549468.14] Got connection from 192.168.1.39
+[1469549468.26] 1 command: lis
+[1469549468.3] Got connection from 192.168.1.39
+[1469549468.39] 1 command: cur
+[1469549562.0] Got connection from 192.168.1.39
+[1469549562.17] 1 command: lis
+[1469549562.2] Got connection from 192.168.1.39
+[1469549562.31] 1 command: cur
+[1469549566.13] Got connection from 192.168.1.39
+[1469549566.27] 1 command: sin
+[1469549566.4] 1 has signed in
+[1469549567.59] Got connection from 192.168.1.39
+[1469549567.7] 1 command: lis
+[1469549567.74] Got connection from 192.168.1.39
+[1469549567.84] 1 command: cur
+[1469549568.94] Got connection from 192.168.1.39
+[1469549569.04] 1 command: lis
+[1469549569.08] Got connection from 192.168.1.39
+[1469549569.17] 1 command: cur
+[1469549571.8] Got connection from 192.168.1.39
+[1469549571.9] 1 command: lis
+[1469549571.93] Got connection from 192.168.1.39
+[1469549572.02] 1 command: cur
+[1469549572.28] Got connection from 192.168.1.39
+[1469549572.41] 1 command: lis
+[1469549572.45] Got connection from 192.168.1.39
+[1469549572.61] 1 command: cur
+[1469549598.14] Got connection from 192.168.1.39
+[1469549598.52] 1 command: lis
+[1469549598.56] Got connection from 192.168.1.39
+[1469549598.71] 1 command: cur
+[1469549698.4] Got connection from 192.168.1.39
+[1469549698.61] 1 command: lis
+[1469549698.67] Got connection from 192.168.1.39
+[1469549698.82] 1 command: cur
+[1469549701.08] Got connection from 192.168.1.39
+[1469549701.23] 1 command: out
+[1469549701.35] 1 has signed out with the reason: 
+[1469549701.51] Got connection from 192.168.1.39
+[1469549701.64] 1 command: cur
+[1469549743.71] Got connection from 192.168.1.39
+[1469549743.83] 1 command: sin
+[1469549743.96] 1 has signed in
+[1469549744.09] Got connection from 192.168.1.39
+[1469549744.23] 1 command: cur
+[1469559035.04] Got connection from 192.168.1.39
+[1469559035.22] 1 command: lis
+[1469559035.26] Got connection from 192.168.1.39
+[1469559035.37] 1 command: cur
+[1469559041.71] Got connection from 192.168.1.39
+[1469559041.88] 1 command: out
+[1469559042.0] 1 has signed out with the reason: bored
+[1469559042.21] Got connection from 192.168.1.39
+[1469559042.39] 1 command: cur
+[1469559356.78] Got connection from 192.168.1.39
+[1469559356.85] 1 command: lis
+[1469559356.9] Got connection from 192.168.1.39
+[1469559357.02] 1 command: cur
+[1469559357.19] Got connection from 192.168.1.39
+[1469559357.28] 1 command: lis
+[1469559357.31] Got connection from 192.168.1.39
+[1469559357.4] 1 command: cur
+[1469559359.89] Got connection from 192.168.1.39
+[1469559360.04] 1 command: out
+[1469559360.17] 1 has signed out with the reason: 
+[1469559360.36] Got connection from 192.168.1.39
+[1469559360.44] 1 command: cur
+[1469559708.67] Got connection from 192.168.1.39
+[1469559708.82] 1 command: lis
+[1469559708.88] Got connection from 192.168.1.39
+[1469559708.97] 1 command: cur
+[1469559719.98] Got connection from 192.168.1.39
+[1469559720.18] 1 command: lis
+[1469559720.2] Got connection from 192.168.1.39
+[1469559720.22] Got connection from 192.168.1.39
+[1469559720.32] 1 command: cur
+[1469559720.49] 1 command: cur
+[1469559805.93] Got connection from 192.168.1.28
+[1469559806.03] 1 command: lis
+[1469559806.41] Got connection from 192.168.1.28
+[1469559806.49] 1 command: cur
+[1469560050.66] Got connection from 192.168.1.28
+[1469560050.77] 1 command: lis
+[1469560050.81] Got connection from 192.168.1.28
+[1469560050.91] 1 command: cur
+[1469560061.77] Got connection from 192.168.1.28
+[1469560061.87] 1 command: sin
+[1469560061.99] 1 has signed in
+[1469560062.1] Got connection from 192.168.1.28
+[1469560062.19] 1 command: cur
+[1469560067.0] Got connection from 192.168.1.28
+[1469560067.11] 1 command: lis
+[1469560067.15] Got connection from 192.168.1.28
+[1469560067.22] 1 command: cur
+[1469560104.73] Got connection from 192.168.1.28
+[1469560104.85] 1 command: lis
+[1469560105.23] Got connection from 192.168.1.28
+[1469560105.3] 1 command: cur
+[1469560164.36] Got connection from 192.168.1.28
+[1469560164.45] 1 command: lis
+[1469560164.5] Got connection from 192.168.1.28
+[1469560164.57] 1 command: cur
+[1469560337.76] Got connection from 192.168.1.28
+[1469560337.85] 1 command: lis
+[1469560337.88] Got connection from 192.168.1.28
+[1469560337.96] 1 command: cur
+[1469560509.73] Got connection from 192.168.1.28
+[1469560509.83] 1 command: lis
+[1469560510.09] Got connection from 192.168.1.28
+[1469560510.15] 1 command: cur
+[1469560528.58] Got connection from 192.168.1.28
+[1469560528.68] 1 command: lis
+[1469560528.71] Got connection from 192.168.1.28
+[1469560528.79] 1 command: cur
+[1469560770.11] Got connection from 192.168.1.28
+[1469560770.2] 1 command: lis
+[1469560770.32] Got connection from 192.168.1.28
+[1469560770.4] 1 command: cur
+[1469560775.08] Got connection from 192.168.1.28
+[1469560775.17] 1 command: lis
+[1469560775.23] Got connection from 192.168.1.28
+[1469560775.3] 1 command: cur
+[1469560895.44] Got connection from 192.168.1.28
+[1469560895.54] 1 command: lis
+[1469560896.04] Got connection from 192.168.1.28
+[1469560896.13] 1 command: cur
+[1469635580.61] Got connection from 192.168.1.39
+[1469635580.74] 1 command: lis
+[1469635580.81] Got connection from 192.168.1.39
+[1469635580.9] 1 command: cur
+[1469635582.61] Got connection from 192.168.1.39
+[1469635582.79] 1 command: lis
+[1469635582.82] Got connection from 192.168.1.39
+[1469635582.92] 1 command: cur
+[1469635583.11] Got connection from 192.168.1.39
+[1469635583.29] 1 command: lis
+[1469635583.33] Got connection from 192.168.1.39
+[1469635583.47] 1 command: lis
+[1469635583.47] Got connection from 192.168.1.39
+[1469635583.5] Got connection from 192.168.1.39
+[1469635583.6] 1 command: cur
+[1469635583.62] Got connection from 192.168.1.39
+[1469635583.69] 1 command: lis
+[1469635583.73] Got connection from 192.168.1.39
+[1469635583.78] 1 command: lis
+[1469635583.79] Got connection from 192.168.1.39
+[1469635583.88] 1 command: lis
+[1469635583.9] Got connection from 192.168.1.39
+[1469635583.96] Got connection from 192.168.1.39
+[1469635583.98] 1 command: lis
+[1469635584.07] 1 command: lis
+[1469635584.11] Got connection from 192.168.1.39
+[1469635584.12] Got connection from 192.168.1.39
+[1469635584.13] Got connection from 192.168.1.39
+[1469635584.15] 1 command: lis
+[1469635584.16] Got connection from 192.168.1.39
+[1469635584.29] 1 command: lis
+[1469635584.33] 1 command: lis
+[1469635584.33] Got connection from 192.168.1.39
+[1469635584.35] Got connection from 192.168.1.39
+[1469635584.49] 1 command: lis
+[1469635584.5] Got connection from 192.168.1.39
+[1469635584.52] Got connection from 192.168.1.39
+[1469635584.52] 1 command: cur
+[1469635584.73] 1 command: cur
+[1469635584.74] 1 command: cur
+[1469635584.83] 1 command: cur
+[1469635584.87] Got connection from 192.168.1.39
+[1469635584.88] Got connection from 192.168.1.39
+[1469635585.04] 1 command: lis
+[1469635585.05] 1 command: lis
+[1469635585.09] Got connection from 192.168.1.39
+[1469635585.13] Got connection from 192.168.1.39
+[1469635585.14] Got connection from 192.168.1.39
+[1469635585.23] 1 command: cur
+[1469635585.29] 1 command: cur
+[1469635585.39] 1 command: lis
+[1469635585.4] Got connection from 192.168.1.39
+[1469635585.55] 1 command: lis
+[1469635585.6] 1 command: lis
+[1469635585.64] Got connection from 192.168.1.39
+[1469635585.65] Got connection from 192.168.1.39
+[1469635585.67] Got connection from 192.168.1.39
+[1469635585.76] 1 command: lis
+[1469635585.77] Got connection from 192.168.1.39
+[1469635585.87] 1 command: lis
+[1469635585.95] Got connection from 192.168.1.39
+[1469635585.96] 1 command: lis
+[1469635585.98] Got connection from 192.168.1.39
+[1469635586.0] Got connection from 192.168.1.39
+[1469635586.05] 1 command: cur
+[1469635586.16] 1 command: cur
+[1469635586.29] 1 command: cur
+[1469635586.47] 1 command: cur
+[1469635586.5] Got connection from 192.168.1.39
+[1469635586.61] 1 command: cur
+[1469635596.83] Got connection from 192.168.1.39
+[1469635597.02] 1 command: out
+[1469635597.17] 1 has signed out with the reason: end of lessons
+[1469635597.31] Got connection from 192.168.1.39
+[1469635597.43] 1 command: cur
+[1469792266.61] Got connection from 192.168.1.39
+[1469792266.77] 1 command: lis
+[1469792266.81] Got connection from 192.168.1.39
+[1469792266.91] 1 command: cur
+[1469798187.74] Got connection from 192.168.1.28
+[1469798187.83] 1 command: lis
+[1469798188.19] Got connection from 192.168.1.28
+[1469798188.27] 1 command: cur

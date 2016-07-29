@@ -46,7 +46,7 @@
                     <a href="students.php">Students</a>
                 </li>
                 <li>
-                    <a href="#">Settings</a>
+                    <a href="settings.php">Settings</a>
                 </li>
 
                 <li>

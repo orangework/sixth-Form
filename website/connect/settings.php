@@ -33,19 +33,23 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
+                <li >
+                    <a href="index.php">
                         Dashboard
                     </a>
                 </li>
                 <li>
-                    <a href="#">Teachers</a>
+                    <a href="teachers.php">Teachers</a>
                 </li>
                 <li>
-                    <a href="#">Students</a>
+                    <a href="students.php">Students</a>
                 </li>
-                <li>
+                <li class="sidebar-brand">
                     <a href="#">Settings</a>
+                </li>
+
+                <li>
+                    <a href="logout.php">Logout</a>
                 </li>
 
             </ul>
@@ -57,10 +61,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>Simple Sidebar</h1>
-                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <h1>Settings</h1>
                         <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                        <h3>You're currently <b><?php echo $_COOKIE["login"] ?> </b></h3>
+                        <p> No settings yet.</p>
                     </div>
                 </div>
             </div>

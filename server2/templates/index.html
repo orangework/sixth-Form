@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+  <head>
+
+	  <?php
+if(isset($_COOKIE[login])) {
+    header( 'Location: connect/index.php' ) ;
+}
+
+?>
+
+
+    <meta charset="UTF-8">
+    <title>6th form login</title>
+
+
+
+
+        <link rel="stylesheet" href="static/style.css">
+
+
+
+
+  </head>
+
+  <body>
+
+    <h1>Sixth form login</h1>
+
+<!-- Login Container -->n
+<section class="login">
+  <h4><b>{{ error }}</b></h4>
+    <form action="connect/" method="post">
+
+        <!-- The Username Field -->
+        <label for="username">Username
+        <input type="text" name="u" id="username" />
+    	</label>
+
+        <!-- The Password Field -->
+        <label for="password">Password
+        <input type="password" name="p" id="password" />
+        </label>
+
+
+        <!-- Clearn both sides -->
+        <div class="clear"></div>
+
+
+
+        <!-- The Login Button -->
+        <input type="submit" value="Login" />
+    </form>
+    </section>
+<div style="position: fixed;bottom: 0;right: 0;">Version:{{ ver }} Server info: {{ info }}</div>
+
+
+
+  </body>
+</html>

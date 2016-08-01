@@ -10,7 +10,7 @@
 ## Todo
 * Create user levels (who can access the webpage)
 * Secure the android app (SSL)
-* Create settings page
+* ~~Create settings page~~
 * Create the reg system
 * upgrade the server code to handle http requests (means only one program, no apache php etc..)
 

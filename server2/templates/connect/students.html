@@ -10,10 +10,12 @@
     <meta name="author" content="">
 
     <title>6th form app</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
 
     <link href="/static/bootstrap.min.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
 
     <link href="/static/simple-sidebar.css" rel="stylesheet">
@@ -34,16 +36,16 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
+                <li>
+                    <a href="index">
                         Dashboard
                     </a>
                 </li>
-                <li>
+                <li >
                     <a href="teachers">Teachers</a>
                 </li>
-                <li>
-                    <a href="students">Students</a>
+                <li class="sidebar-brand">
+                    <a href="#">Students</a>
                 </li>
                 <li>
                     <a href="settings">Settings</a>
@@ -62,29 +64,31 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>Hello <i><?php echo $_COOKIE['login'] ?></i></h1><a  href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-
-                        <h2>Active users</h2>
-                     <table style="width:40%">
-                          <tr><td>  <b> Username</td><td>  <b> timestamp</b></td></tr>
-                        {% for a in active %}
-                        <tr><td>{{a[0]}}</td><td>{{a[1]}}</td></tr>
-                        {% endfor %}
-                      </table>
-                        <h2>Students out of school</h2>
+                        <h1>Students</h1>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                        <p>Current students that are out</p>
                         <table style="width:40%">
                           <tr><td>  <b> Username</td><td>  <b> Reason</td><td>  <b> Timestamp</td></tr>
                         {% for a in students %}
-                        <tr><td>{{a[1]}}</td><td>{{a[5]}}</td><td>{{a[4]}}</td></tr>
+                        <tr><td>{{a[1]}}[{{a[0]}}]</td><td>{{a[5]}}</td><td>{{a[4]}}</td></tr>
                         {% endfor %}
                         </table>
-                        <h2>Teachers signed out</h2>
-                        <table style="width:40%">
-                          <tr><td>  <b> Teacher</td><td>  <b> Comment</td></tr>
-                        {% for a in teachers %}
-                        <tr><td>{{a[0]}}[{{a[1]}}]</td><td>{{a[2]}}</td></tr>
-                        {% endfor %}
-                        </table>
+
+
+                      <h3>Sign student out</h3>
+                      <form action="studentOut" method="post">
+                      <p>Student name: <br><input name="student" id="studentsName"/></p>
+                      <p>Reason: <input type="text" name="reason"/></p>
+                      <input type="submit" value="Sign out"/>
+                      </form>
+
+                      <h3>Sign student in</h3>
+                      <form action="studentIn" method="post">
+                      <p>Student name ID: <input type="text" name="clientId"/></p>
+
+                      <input type="submit" value="Sign in"/>
+                      </form>
+
                     </div>
                 </div>
             </div>
@@ -95,7 +99,7 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="/static/jquery.js"></script>
+<!--    <script src="js/jquery.js"></script> -->
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/static/bootstrap.min.js"></script>
@@ -107,18 +111,7 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
 
 
 </body>

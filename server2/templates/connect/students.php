@@ -15,10 +15,10 @@
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
 
-    <link href="/static/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
-    <link href="/static/simple-sidebar.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
 
 
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,22 +37,22 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li>
-                    <a href="index">
+                    <a href="index.php">
                         Dashboard
                     </a>
                 </li>
                 <li >
-                    <a href="teachers">Teachers</a>
+                    <a href="teachers.php">Teachers</a>
                 </li>
                 <li class="sidebar-brand">
                     <a href="#">Students</a>
                 </li>
                 <li>
-                    <a href="settings">Settings</a>
+                    <a href="settings.php">Settings</a>
                 </li>
 
                 <li>
-                    <a href="logout">Logout</a>
+                    <a href="logout.php">Logout</a>
                 </li>
 
             </ul>
@@ -65,44 +65,22 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>Students</h1>
-<<<<<<< HEAD
-                        <p>{{error}}</p>
-=======
->>>>>>> ec269db2e1750b594ebfa28cc1932f7872ee4544
                         <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
                         <p>Current students that are out</p>
-                        <table style="width:40%">
-                          <tr><td>  <b> Username</td><td>  <b> Reason</td><td>  <b> Timestamp</td></tr>
-                        {% for a in students %}
-                        <tr><td>{{a[1]}}[{{a[0]}}]</td><td>{{a[5]}}</td><td>{{a[4]}}</td></tr>
-                        {% endfor %}
-                        </table>
+                        <div id="students"></div>
 
 
                       <h3>Sign student out</h3>
-<<<<<<< HEAD
-                      <form action="/commands" method="post">
+                      <form action="commands/students.php?command=out" method="post">
                       <p>Student name: <br><input name="student" id="studentsName"/></p>
                       <p>Reason: <input type="text" name="reason"/></p>
-                      <input type="hidden" name="com" value="outStudent">
-=======
-                      <form action="studentOut" method="post">
-                      <p>Student name: <br><input name="student" id="studentsName"/></p>
-                      <p>Reason: <input type="text" name="reason"/></p>
->>>>>>> ec269db2e1750b594ebfa28cc1932f7872ee4544
                       <input type="submit" value="Sign out"/>
                       </form>
 
                       <h3>Sign student in</h3>
-<<<<<<< HEAD
-                      <form action="/commands" method="post">
-                      <p>Student name ID: <input type="text" name="clientId"/></p>
-                      <input type="hidden" name="com" value="inStudent">
-=======
-                      <form action="studentIn" method="post">
+                      <form action="commands/students.php?command=in" method="post">
                       <p>Student name ID: <input type="text" name="clientId"/></p>
 
->>>>>>> ec269db2e1750b594ebfa28cc1932f7872ee4544
                       <input type="submit" value="Sign in"/>
                       </form>
 
@@ -119,7 +97,7 @@
 <!--    <script src="js/jquery.js"></script> -->
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/static/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
@@ -130,6 +108,30 @@
     </script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
 
+    <script>
+
+
+
+
+
+    var users = "";
+
+
+    $.ajax({
+            'dataType': 'html',
+            'url': "commands/listNames.php",
+            'success': function (data) {
+                users = data.split(",");
+                $( "#studentsName" ).autocomplete({
+                      source: users
+                    });
+            }
+          });
+
+
+
+    $("#students").load("commands/getStudentsOut.php");
+    </script>
 
 </body>
 

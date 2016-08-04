@@ -12,7 +12,8 @@
 * Secure the android app (SSL)
 * ~~Create settings page~~
 * Create the reg system
-* upgrade the server code to handle http requests (means only one program, no apache php etc..)
+* ~~upgrade the server code to handle http requests (means only one program, no apache php etc..)~~
+* Change the layout of the new server code to make it easier (change some of the pages to allow get and post)
 
 ## How to test
 * There is no live version.

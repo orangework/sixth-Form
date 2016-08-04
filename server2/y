@@ -1,0 +1,8 @@
+import sqlite3 as lite
+con = lite.connect('data.db')
+with con:
+
+    cur = con.cursor()
+    cur.execute("SELECT * FROM details WHERE in ='no'")
+    r = cur.fetchall()
+print r

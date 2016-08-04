@@ -12,11 +12,11 @@
     <title>6th form app</title>
 
 
-    <link href="/static/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
-    <link href="/static/simple-sidebar.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
 
 
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,22 +35,22 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li >
-                    <a href="index">
+                    <a href="index.php">
                         Dashboard
                     </a>
                 </li>
                 <li class="sidebar-brand">
-                    <a href="teachers">Teachers</a>
+                    <a href="teachers.php">Teachers</a>
                 </li>
                 <li>
-                    <a href="students">Students</a>
+                    <a href="students.php">Students</a>
                 </li>
                 <li>
-                    <a href="settings">Settings</a>
+                    <a href="settings.php">Settings</a>
                 </li>
 
                  <li>
-                    <a href="logout">Logout</a>
+                    <a href="logout.php">Logout</a>
                 </li>
 
             </ul>
@@ -63,43 +63,19 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>Teachers</h1>
-<<<<<<< HEAD
-                        <p>{{error}}</p>
-=======
->>>>>>> ec269db2e1750b594ebfa28cc1932f7872ee4544
                         <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-						<p>Last update: <i>{{ last }}</i></p>
-            <h2>Teachers signed out</h2>
-            <table style="width:40%">
-              <tr><td>  <b> Teacher</td><td>  <b> Comment</td></tr>
-            {% for a in teachers %}
-            <tr><td>{{a[0]}}[{{a[1]}}]</td><td>{{a[2]}}</td></tr>
-            {% endfor %}
-            </table>
-<<<<<<< HEAD
-						<form action="/commands" method="post">
-              <input type="hidden" name="com" value="removeAllTeachers">
+						<p>Last update: <i>unavailable</i></p>
+						<div id="teachers"></div>
+						<form action="commands/remoteAT.php?type=delAll" method="get">
+							<input type="hidden" name="type" value="delAll">
 							<input type="submit" value="Remove all"/>
-
 						</form>
-						<form action="/commands" method="post"><p>Teacher: <input type="text" name="teacher"/>
-              <input type="hidden" name="com" value="removeOneTeacher">
+						<form action="commands/remoteAT.php?type=del" method="get"><p>Teacher: <input type="text" name="teacher"/>
+						<input type="hidden" name="type" value="del">
 							<input type="submit" value="Remove"/>
 						</form>
 						<br><br>
-						<form action="/commands" method="post">
-              <input type="hidden" name="com" value="addTeacher">
-=======
-						<form action="delAll" method="get">
-							<input type="submit" value="Remove all"/>
-						</form>
-						<form action="delOne" method="get"><p>Teacher: <input type="text" name="teacher"/>
-
-							<input type="submit" value="Remove"/>
-						</form>
-						<br><br>
-						<form action="addTeacher" method="get">
->>>>>>> ec269db2e1750b594ebfa28cc1932f7872ee4544
+						<form action="commands/addTeacher.php" method="post">
 							<p>Teacher:
 						<input type="text" name="teacher"/></p><p>
 						Subject:
@@ -119,10 +95,10 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="/static/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/static/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>

@@ -120,7 +120,7 @@ def signOut(c,line,clientId):
 	with con:
 		cur = con.cursor()
 
-		cur.execute("UPDATE details SET 'in'='no','edit'=?,reason=?  WHERE clientId=?",(timestamp2,line,clientId,))
+		cur.execute("UPDATE details SET 'status'='no','edit'=?,reason=?  WHERE clientId=?",(timestamp2,line,clientId,))
 	with con:
 		cur = con.cursor()
 		## one step further, add it to the history table! :O
@@ -136,7 +136,7 @@ def signIn(c,clientId):
 	con = lite.connect("data.db")
 	with con:
 		cur = con.cursor()
-		cur.execute("UPDATE details SET 'in'='yes' WHERE clientId=?",(clientId,))
+		cur.execute("UPDATE details SET 'status'='yes' WHERE clientId=?",(clientId,))
 	with con:
 		cur = con.cursor()
 		## one step further, add it to the history table! :O

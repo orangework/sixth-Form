@@ -73,9 +73,10 @@ def getLastTeacherUpdate():
 def index():
     try:
         e = request.args.get("error")
-        if(len(e)<1):
-            e="Please enter your username and password"
-        return render_template("index.html", ver=version,info=getServerInfo(),error=e)
+        if(e is None):
+            return render_template("index.html", ver=version,info=getServerInfo())
+        else:
+            return render_template("index.html", ver=version,info=getServerInfo(),errorCode=e)
     except:
         return render_template("index.html", ver=version,info=getServerInfo())
 
@@ -90,7 +91,7 @@ def login():
         con = lite.connect('data.db')
         with con:
             cur = con.cursor()
-            cur.execute("SELECT * FROM details WHERE username=? AND password=?",(user,password))#It will only work if both values are there
+            cur.execute("SELECT * FROM webAccess WHERE username=? AND password=?",(user,password))#It will only work if both values are there
             row = cur.fetchone()
             if(not row):##incorrect
                 print "incorrect username or password"

@@ -6,9 +6,10 @@
 * Website has the ability make changes to the database
 * Android app fetches the list of teachers that are out of school and current status of the student to change what is displayed
 * Android app can change the status of the student
+* Python website server
 
 ## Todo
-* Create user levels (who can access the webpage)
+* ~~Create user levels (who can access the webpage)~~
 * Secure the android app (SSL)
 * ~~Create settings page~~
 * Create the reg system
